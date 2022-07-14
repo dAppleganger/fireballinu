@@ -343,15 +343,18 @@ p {
 	
 	*/
 	font-family: 'Montserrat', Helvetica, sans-serif;
-	color: #fff;
-	font-size: 5rem;
+	color: orange;
+	font-size: 10rem;
+	-webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+  padding-bottom: 10px;
 	
 }
 
 
 #hero h1 span {
 	
-color: #red;
+color: red;
 
 text-shadow: none;
 }
@@ -515,55 +518,34 @@ list-style-type: none;
 
 /* Certifications Section */
 
-
-
-#certifications .certifications {
+#certifications  {
+	
 	flex-direction: column;
-	max-width: 1500px;
+	max-width: 300px;
 	margin: 0 auto;
-	width: 100%;
-
-}
-
-#certifications .item {
-	text-align:center;
-	padding: 100px 0px 100px 0px;
-	background-color: #29323c; 
+	padding: 100px 0;
 	
-
 }
 
-
-
-
-#certifications .item h1{
+#certifications li{
+	
 	font-size: 4rem;
-	font-weight: 300;
-	color: white;
-	margin-bottom: 10px;
-	text-transform: uppercase;
-	letter-spacing: 0.2rem;
-	text-align: center;
-	padding-bottom: 50px;
-	width: 100%;
+	font-weight: 1000;
 }
+
+#certifications .list {
 	
-
-
-#certifications .item img{
-
-padding: 15px;
-padding-bottom: 15px;
-transition: 1s ease;
-}	
-
-#certifications .item img:hover{
--webkit-transform: scale(1.2);
--ms-transform: scale(1.2);
-transform: scale(1.2);
-transition: 1s ease;
+	flex-direction: column;
+	max-width: 300px;
+	margin: 0 auto;
+	padding: 100px 0;
+	background-image: url(images/fire.jpg);
 }
-
+#certifications .list ul
+{
+	style: none;
+	
+}
 
 
 /* End Certifications */
@@ -600,7 +582,7 @@ transition: 1s ease;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	box-shadow: 0px 0px 18px 0 red;
+	box-shadow: 0px 0px 18px 0 grey;
 	transition: 0.3s ease box-shadow;
 }
 #contact .contact-item:hover {
